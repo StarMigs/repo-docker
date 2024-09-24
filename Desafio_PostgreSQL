@@ -1,1 +1,1 @@
-
+docker container run --name PostgreSQL -d -p 5432:5432 -e POSTGRESQL_POSTGRES_PASSWORD="postgre1234" -e POSTGRESQL_DATABASE=curso_docker -e POSTGRESQL_USERNAME=docker_usr -e POSTGRESQL_PASSWORD=docker_pwd bitnami/postgresql
